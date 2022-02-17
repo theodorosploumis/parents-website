@@ -1,0 +1,66 @@
+@import "~bulma/sass/utilities/initial-variables"
+
+// Config vars
+$kaldi-red: #D64000
+$blue-light: #75cbff
+$blue: #151569
+$gray-light: #e4e4e4
+$kaldi-red-invert: #fff
+
+$primary: $kaldi-red
+$primary-invert: $kaldi-red-invert
+$body-color: #333
+
+div .navbar
+  background-color: $gray-light
+  font-weight: bold
+
+  .navbar-menu
+    box-shadow:none !important
+
+.logo
+  margin: 15px 0
+
+.navbar-start
+  a[aria-current="page"]
+    background: #fff
+
+.content a .blog-list-item
+  color: $primary
+
+.content .taglist
+  list-style: none
+  margin-bottom: 0
+  margin-left: 0
+  margin-right: 1.5rem
+  margin-top: 1.5rem
+  display: flex
+  flex-wrap: wrap
+  justify-content: left
+  align-items: center
+  li
+    padding: 0 2rem 1rem 0
+    margin-bottom: 1.5rem
+    margin-top: 0
+
+div .section
+  padding: 3em 0 2em
+
+// Helper Classes
+.full-width-image-container
+  width: 100vw
+  height: 400px
+  position: relative
+  left: 50%
+  right: 50%
+  margin: 5em -50vw
+  background-size: cover
+  background-position: bottom
+  display: flex
+  justify-content: center
+  align-items: center
+
+.margin-top-0
+  margin-top: 0 !important
+
+@import "~bulma"
